@@ -1,13 +1,9 @@
-/* 코드 블럭 스타일 수정 */
-.highlight {
-    overflow-x: auto;
-    max-width: 100%;
-    padding: 1em;
-    background: #f8f8f8;
-    border-radius: 8px;
-  }
-  
-  /* 코드 줄 자체가 너무 길 때 줄 바꿈 없이 스크롤 되도록 */
-  .highlight pre {
-    white-space: pre;
-  }
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
