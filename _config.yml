@@ -117,7 +117,7 @@ author:
   avatar           : "/assets/images/BLDAS.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "밝은 빛 DA 블로그 입니다"
   location         : "South Korea"
-  email            : "chang00917@naver.com"
+  # email            : "chang00917@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
