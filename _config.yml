@@ -10,8 +10,8 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                  : minima # "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+# theme                  : minima # "minimal-mistakes-jekyll"
+remote_theme           : "mmistakes/minimal-mistakes@4.24.0" # "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "SOB"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/BLDAS.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "밝은 빛 DA 블로그 입니다"
   location         : "South Korea"
   email            : "chang00917@naver.com"
@@ -312,9 +312,7 @@ compress_html:
     envs: development
 
 
-# Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -325,6 +323,9 @@ defaults:
       comments: true
       share: true
       related: true
-      show_date: True
+      show_date: true
+      sidebar:
+        nav: "sidebar"
+        show: true
 
 date_format: "%Y-%m-%d"
