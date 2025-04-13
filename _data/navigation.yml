@@ -10,3 +10,13 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+# sidebar links
+sidebar:
+  - title: "소개"
+    url: /about/
+  - title: "카테고리"
+    url: /categories/
+  - title: "태그"
+    url: /tags/
+  - title: "문의하기"
+    url: /contact/ 
